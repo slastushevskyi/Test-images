@@ -19,12 +19,12 @@ body {
 }
 h1 {
     font-size: 36px;
-    margin-left: 100px;
+    margin-left: 200px;
     text-transform: uppercase;
     font-weight: 800;
 }
 .header p {
-    margin-left: 105px;
+    margin-left: 205px;
     margin-top: -35px;
     font-size: 16px;
     font-weight: 500;
@@ -43,7 +43,7 @@ h1 {
     align-items: center;
 }
 .menu-list {
-    margin-left: 60px;
+    margin-left: 160px;
     list-style-type: none;
     display: flex;
     align-items: flex-start;
@@ -76,7 +76,7 @@ h1 {
     justify-content: center;
 }
 .webdev-ind {
-    width: 600px;
+    max-width: 425px;
     height: 610px;
     align-items: space-around;
     margin-left: 50px;
@@ -118,7 +118,7 @@ h3 {
 .gallery {
     margin-top: 25px;
     margin-bottom: 25px;
-    width: 600px;
+    max-width: 425px;
     max-height: 30%;
     margin-left: 50px;
     margin-right: 50px;
@@ -127,7 +127,7 @@ h3 {
     font-size: 14px;
     color: rgb(114, 110, 106);
     font-weight: 400;
-    width: 600px;
+    max-width: 425px;
 }
 .gallery-list {
     display: flex;
@@ -159,6 +159,7 @@ h3 {
 }
 .icon {
     margin-right: 22px;
+    margin-top: 60px;
     height: 128px;
 }
 
@@ -408,6 +409,7 @@ iframe {
     .icon {
         margin-right: 10px;
         max-height: 65px;
+        margin-top: 0px ;
     }
     footer {
         display: flex;
