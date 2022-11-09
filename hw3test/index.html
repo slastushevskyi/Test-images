@@ -41,7 +41,7 @@
                     <a href="#step-4" class="tab_item">Step 4</a>
                 </nav>
             </div>
-            <form id="registration" method="post" enctype="multipart/form-data"><!--Method POST falls into error. And here must be also enctype="multipart/form-data" and action="index.html#step-4" code doens't work with it -->
+            <form action="index.html#step-4" method="test"><!--Method POST falls into error. And here must be also enctype="multipart/form-data" and action="index.html#step-4" code doens't work with it -->
 <!--                                             STEP 1                                                      -->
                 <div id="step-1">
                     <p class="p-head">We can't wait to help you improve your life-style 
@@ -316,7 +316,7 @@
                             <input id="terms" type="checkbox" name="terms-conditions" required>
                             <label for="terms"> I agree to these <a href="#">Terms and Conditions</a>.</label>
                           </div>
-                        <button onclick="location.href='#step-4'" id="button3" type="submit" form="registration" value="Submit">Submit</button>
+                        <button id="button3" type="submit" form="registration" value="Submit">Submit</button>
                         <button onclick="location.href='#step-2'" id="button3-1" type="button">Previous step</button> 
                     </div>                   
                 </div>
